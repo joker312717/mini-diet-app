@@ -1,0 +1,100 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^footer-tip": "@/components/footer-tip/footer-tip.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/meal/meal",
+      "style": {
+        "navigationBarTitleText": "配餐"
+      }
+    },
+    {
+      "path": "pages/record/record",
+      "style": {
+        "navigationBarTitleText": "饮食记录"
+      }
+    },
+    {
+      "path": "pages/motivate/motivate",
+      "style": {
+        "navigationBarTitleText": "激励"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/review/review",
+      "style": {
+        "navigationBarTitleText": "每日复盘"
+      }
+    },
+    {
+      "path": "pages/addFood/addFood",
+      "style": {
+        "navigationBarTitleText": "录入饮食记录"
+      }
+    },
+    {
+      "path": "pages/period/period",
+      "style": {
+        "navigationBarTitleText": "生理期管理"
+      }
+    },
+    {
+      "path": "pages/avoid/avoid",
+      "style": {
+        "navigationBarTitleText": "忌口食材管理"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#9AA5A0",
+    "selectedColor": "#72C8A0",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/meal/meal",
+        "text": "配餐"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/motivate/motivate",
+        "text": "激励"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "轻盈食光",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F8F7"
+  }
+}
+
+  

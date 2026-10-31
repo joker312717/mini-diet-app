@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: qingying-food-analyze
+    runtime: node
+    rootDir: server
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: node index.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: VISION_MODEL
+        value: qwen3-vl-plus
+      - key: MODEL_BASE_URL
+        value: https://dashscope.aliyuncs.com/compatible-mode/v1
+      - key: CACHE_TTL_HOURS
+        value: "24"
+      - key: CACHE_MAX
+        value: "200"
+      # 下面两项在 Render 控制台手动填写，不要写进仓库
+      - key: MODEL_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false

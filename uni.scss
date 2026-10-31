@@ -1,0 +1,11 @@
+@import '@/uni_modules/uview-ui/theme.scss';
+
+/* 全局主题变量 */
+$primary: #72C8A0;        // 主色 薄荷绿
+$period: #E8B8C0;         // 生理期辅助色 豆沙粉
+$warn: #F56C6C;           // 警告红
+$tip: #E6A23C;            // 温馨提示黄
+$bg: #f4f9f7;             // 页面背景（径向渐变末端色）
+$text-main: #333333;
+$text-sub: #999999;
+$radius-card: 16rpx;      // 卡片统一圆角
