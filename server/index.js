@@ -274,7 +274,7 @@ const server = http.createServer((req, res) => {
   })
 })
 
-server.listen(PORT, () => {
+server.listen(PORT,'0.0.0.0', () => {
   console.log(`food-analyze server: http://localhost:${PORT}`)
   console.log(`model: ${MODEL} | key: ${API_KEY ? '已配置' : '未配置（请写入 .env）'}`)
 })
